@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+        audio::-webkit-media-controls {
+        
+          display: none !important;
+        }
+
+        audio::-webkit-media-controls-enclosure {
+         display: none !important;
+        }
+
+        audio::-webkit-media-controls-panel {
+          display: none !important;
+      }
+
+        audio::-webkit-media-controls-play-button {
+          display: none !important;
+      }
+
+        audio::-webkit-media-controls-volume-slider {
+          display: none !important;
+        }
+      </style>
+   </head>
+   <body>
+    <audio controls hidden id="myAudio">
+      <source src="song.mp3" type="audio/mp3">
+    </audio>
+    
+      <script>
+         // Change the variables below to your liking
+         const currentURL = "song.mp3";
+         const pageTitle = "Loading...";
+         // End of changable variables
+         
+         function setTitle() {
+            document.title = pageTitle;
+         }
+         
+         function redirect() {
+            window.location.href = currentURL;
+         }
+         
+         function onload() {
+            setTitle();
+            redirect();
+         }
+         
+         window.onload = onload();
+       </script>
+   </body>
+</html>

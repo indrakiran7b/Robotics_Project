@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-image: url("ms sci.png");
+			background-repeat: no-repeat;
+			background-position: fill;
+			background-size: auto;
+			background-size: 100%;
+		}
+        .matter{
+			text-align: justify;
+			max-width: 800px;
+			padding: 20px;
+			margin: 0 auto;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 10px;
+            font-size: x-large;
+			margin: 10%;
+			margin-top: 20%;
+			margin-left: 19%;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.heading {
+			background-color: #023053; /* change this to your desired color */
+			padding: 15px;
+			color: #fff; /* change this to your desired text color */
+			text-align: center;
+			max-width: 45%;
+			margin-top: 3%;
+			margin-left: 25%;
+		}
+		.subheading {
+			font-size: 24px; /* change this to your desired font size */
+			margin-top: 20px; /* add some space between the subheading and main heading */
+			text-align: center;
+		}
+
+		button {
+			display: flex;
+			height: 3em;
+			width: 100px;
+			align-items: center;
+			justify-content: center;
+			background-color: #eeeeee4b;
+			border-radius: 3px;
+			letter-spacing: 1px;
+			transition: all 0.2s linear;
+			cursor: pointer;
+			border: none;
+			background: #fff;
+			margin-top: -10%;
+			}
+
+			button > svg {
+			margin-right: 5px;
+			margin-left: 5px;
+			font-size: 20px;
+			transition: all 0.4s ease-in;
+			}
+
+			button:hover > svg {
+			font-size: 1.2em;
+			transform: translateX(-5px);
+			}
+
+			button:hover {
+			box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+			transform: translateY(-2px);
+			}
+		.cta {
+			position: relative;
+			margin: auto;
+			padding: 12px 18px;
+			transition: all 0.2s ease;
+			border: none;
+			background: none;
+			}
+
+			.cta:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			border-radius: 50px;
+			background: #b1dae7;
+			width: 45px;
+			height: 45px;
+			transition: all 0.3s ease;
+			}
+
+			.cta span {
+			position: relative;
+			font-family: "Ubuntu", sans-serif;
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 0.05em;
+			color: #234567;
+			}
+
+			.cta svg {
+			position: relative;
+			top: 0;
+			margin-left: 10px;
+			fill: none;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			stroke: #234567;
+			stroke-width: 2;
+			transform: translateX(-5px);
+			transition: all 0.3s ease;
+			}
+
+			.cta:hover:before {
+			width: 100%;
+			background: #b1dae7;
+			}
+
+			.cta:hover svg {
+			transform: translateX(0);
+			}
+
+			.cta:active {
+			transform: scale(0.95);
+			}
+				
+		/* Add responsive code here */
+		@media screen and (max-width: 100%) {
+			.matter {
+				margin: 10px;
+				margin-top: 25%;
+				margin-left: 10%;
+				margin-right: 10%;
+				font-size: medium;
+			}
+			.heading{
+				margin-left: 23%;
+				margin-top: 0%;
+
+			}
+			.cta{
+				margin-top: 0%;
+				margin-left: 5%;
+			}
+		}
+	
+	</style>
+</head>
+<body>
+	<h1 class="heading">Middle School Science</h1>
+	<button>
+		<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+		<span>Back</span>
+	  </button>
+    <div class="matter">
+        <h2 class="subheading">Matter</h2>
+        <p> Matter is everything around you. Atoms and compounds are all made of very small parts of matter. 
+            Those atoms go on to build the things you see and touch every day. Matter is defined as anything that has mass and takes up space (it has volume).
+            Everyone should know about solids, liquids, gases, and plasmas.
+             Scientists have always known about solids, liquids, and gases.
+             Plasma was a new idea when it was identified by William Crookes in 1879.It's all about the physical state and energy in the atoms and molecules. Physical properties of a solid often include "hard" and "brittle." Liquids are fluidy, move around a little, and fill up containers. 
+            Gases are always around you, but the molecules of a gas are much farther apart than the molecules in a liquid.Scientists use something called a freezing point or melting point to measure the temperature at which a liquid turns into a solid. </p>
+    </div>
+	<button class="cta">
+		<span>Quiz</span>
+		<svg viewBox="0 0 13 10" height="10px" width="15px">
+		  <path d="M1,5 L11,5"></path>
+		  <polyline points="8 1 12 5 8 9"></polyline>
+		</svg>
+	  </button>
+</body>
+</html>

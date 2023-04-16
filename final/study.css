@@ -1,0 +1,65 @@
+ /* Define a class called "heading-background" */
+ .heading-background {
+    background-color: #008080; /* Set the background color to a dark teal */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add some padding around the text */
+  }
+  /* Define a class called "left-align" */
+  .left-align {
+    text-align: left; /* Set the text alignment to left */
+    padding: 10px; /* Add some padding around the text */
+    max-width: 50%; /* Set the maximum width to 50% of the page */
+    float: left; /* Float the element to the left */
+  }
+  /* Define a class called "right-align" */
+  .right-align {
+    float: right; /* Float the element to the right */
+    max-width: 40%; /* Set the maximum width to 40% of the page */
+    position: relative; /* Set the position to relative */
+    margin-top: 80px; /* Add margin to the top to position the image below the heading */
+  }
+  .noun {
+    float: left; /* Float the element to the left */
+    margin-left: 30%;
+    max-width: 100%; /* Set the maximum width to 40% of the page */
+    position: relative; /* Set the position to relative */
+    margin-top: -25%;
+  }
+  /* Position the image to the top right corner */
+  /* Add some padding to the subheading */
+  h2 {
+    padding-top: 20px;
+  }
+  /* Remove the top margin of the paragraph */
+  .paragraph{
+    margin-left: 10px;
+    margin-top: 0;
+    float: left;
+    max-width: 81%;
+
+  }
+  img {
+    max-width: 90%;
+    height: auto;
+    margin-top: -20spx;
+  }
+  .gif {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+
+  @media (min-width: 768px) {
+    /* For screens wider than 768px */
+    .left-align {
+      max-width: 50%; /* Set the maximum width to 50% of the page */
+      float: left; /* Float the element to the left */
+    }
+    .right-align {
+      max-width: 40%; /* Set the maximum width to 40% of the page */
+      float: right; /* Float the element to the right */
+      margin-top: 0; /* Remove margin from the top */
+    }
+  }

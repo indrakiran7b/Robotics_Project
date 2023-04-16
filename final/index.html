@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="ROBO.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="">Food</a></li>
+                        <li><a href="">Music</a></li>
+                        <li><a href="">Cartoon</a></li>
+                        <li><a href="">Study</a></li>
+                    </ul>
+                </nav>
+                <img src="menu.png" class="menu" onclick="togglemenu()">
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <h2>HELLO!<br>My Name Is ECHO</h2>
+                    <h3>Your Personal Assistant</h3>
+                    <p>Let's Begin</p>
+                    <button type="Button">Start<img src="arrow.png"></button>
+                </div>
+                <div class="col-2">
+                    <img src="BOT.png" class="Robot" >
+                    <div class="colour-box"></div>
+                </div>
+            </div>
+
+            <script>
+
+                var menuList = document.getElementById("menuList");
+                menuList.style.maxHeight = "0px";
+                function togglemenu(){
+                    if(menuList.style.maxHeight == "0px")
+                    {
+                        menuList.style.maxHeight = "130px"
+                    }
+                    else{
+                        menuList.style.maxHeight = "0px";
+                    }
+                }
+
+            </script>
+        </div>
+    </body>
+    </html>
+

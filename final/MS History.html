@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-image: url("history.png");
+			background-repeat: no-repeat;
+			background-position: fill;
+			background-size: auto;
+			background-size: 100%;
+		}
+        .matter{
+			text-align: justify;
+			max-width: 80%;
+			padding: 25px;
+			margin: 0 auto;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 10px;
+            font-size: x-large;
+			margin: 10%;
+			margin-top: 10%;
+			margin-left: 19%;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.heading {
+			background-color: #c7a77e; /* change this to your desired color */
+			padding: 15px;
+			color: #fff; /* change this to your desired text color */
+			text-align: center;
+			margin-top: -3%;
+            max-width: 100%;
+            margin-left: -10px;
+
+		}
+		.subheading {
+			font-size: 24px; /* change this to your desired font size */
+			margin-top: 20px; /* add some space between the subheading and main heading */
+			text-align: center;
+		}
+        .button{
+            margin-top: 5px;
+        }
+		
+		button {
+			display: flex;
+			height: 3em;
+			width: 100px;
+			align-items: center;
+			justify-content: center;
+			background-color: #eeeeee4b;
+			border-radius: 3px;
+			letter-spacing: 1px;
+			transition: all 0.2s linear;
+			cursor: pointer;
+			border: none;
+			background: #fff;
+			}
+
+			button > svg {
+			margin-right: 5px;
+			margin-left: 5px;
+			font-size: 20px;
+			transition: all 0.4s ease-in;
+			}
+
+			button:hover > svg {
+			font-size: 1.2em;
+			transform: translateX(-5px);
+			}
+
+			button:hover {
+			box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+			transform: translateY(-2px);
+			}
+		/* Add responsive code here */
+		@media screen and (max-width: 100%) {
+			.matter {
+				margin: 10px;
+				margin-top: 5%;
+				margin-left: 10%;
+				margin-right: 10%;
+				font-size: medium;
+			}
+			.heading{
+                margin-top: -7%;
+			}
+		}
+	
+	</style>
+</head>
+<body>
+
+	<h1 class="heading">Middle School History</h1>
+	<button>
+		<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+		<span>Back</span>
+	  </button>
+    <div class="matter">
+        <h2 class="subheading">History</h2>
+        <p>
+            The Age of Discovery or the Age of Exploration, part of the early modern period and largely overlapping with the 
+            Age of Sail, was a period from approximately the 15th century to the 17th century in European history, during which
+             seafaring Europeans explored, colonized, and conquered regions across the globe.The extensive overseas exploration,
+              with the Portuguese and Spanish at the forefront, later joined by the Dutch, English, and French, emerged as a powerful
+               factor in European culture, most notably the European colonization of the Americas. It also marks an increased adoption
+                of colonialism as a government policy in several European states. As such, it is sometimes synonymous with the first
+                 wave of European colonization.A main event in the Age of Discovery took place when Spain made the transatlantic
+                  voyages of Christopher Columbus between 1492 and 1504, which saw the beginning of the colonization of the Americas. 
+            </p>
+    </div>
+	<button>
+		<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+		<span>Quiz</span>
+	  </button>
+</body>
+</html>
