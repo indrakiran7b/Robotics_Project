@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-image: url("vintage-grunge-paper-background.jpg");
+			background-position: fill;
+			background-size: auto;
+			background-size: 100%;
+		}
+        .matter{
+			text-align: justify;
+			max-width: 80%;
+			padding: 25px;
+			margin: 0 auto;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 10px;
+            font-size: medium;
+			margin: 10%;
+			margin-top: 10%;
+			margin-left: 19%;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.heading {
+			background-color: #c7a77e; /* change this to your desired color */
+			padding: 15px;
+			color: #fff; /* change this to your desired text color */
+			text-align: center;
+			margin-top: -3%;
+            max-width: 100%;
+            margin-left: -10px;
+
+		}
+		.subheading {
+			font-size: 24px; /* change this to your desired font size */
+			margin-top: 20px; /* add some space between the subheading and main heading */
+			text-align: center;
+		}
+        .button{
+            margin-top: 5px;
+        }
+		
+		button {
+			display: flex;
+			height: 3em;
+			width: 100px;
+			align-items: center;
+			justify-content: center;
+			background-color: #eeeeee4b;
+			border-radius: 3px;
+			letter-spacing: 1px;
+			transition: all 0.2s linear;
+			cursor: pointer;
+			border: none;
+			background: #fff;
+			}
+
+			button > svg {
+			margin-right: 5px;
+			margin-left: 5px;
+			font-size: 20px;
+			transition: all 0.4s ease-in;
+			}
+
+			button:hover > svg {
+			font-size: 1.2em;
+			transform: translateX(-5px);
+			}
+
+			button:hover {
+			box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+			transform: translateY(-2px);
+			}
+		/* Add responsive code here */
+		@media screen and (max-width: 100%) {
+			.matter {
+				margin: 10px;
+				margin-top: 5%;
+				margin-left: 5%;
+				margin-right: 10%;
+				font-size: medium;
+			}
+			.heading{
+                margin-top: -7%;
+			}
+            .Quiz{
+                margin-left: 10%;
+            }
+		}
+	
+	</style>
+</head>
+<body>
+	<h1 class="heading">High School History</h1>
+    <button class="Back">
+		<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
+		<span>Back</span>
+	  </button>
+    <div class="matter">
+        <h2 class="subheading">History</h2>
+        <p>The Industrial Revolution, which began in the late 18th century and continued through the 19th century, 
+            brought about significant changes in the way goods were produced and the way people lived and worked.
+             While the Industrial Revolution brought about many positive changes, such as increased productivity and
+              economic growth, it also had a significant impact on working-class families, particularly in terms of their
+               living conditions, health, and family life. One of the most significant impacts of the Industrial Revolution 
+               on working-class families was the change in their living conditions. With the growth of factories and the 
+               concentration of workers in urban areas, working-class families were forced to live in cramped, unsanitary conditions.
+                Many families were forced to live in tenements, which were often overcrowded and lacked basic amenities such as running water
+                 and sanitation facilities. These living conditions led to the spread of diseases such as cholera and typhus, which often led to
+                  high mortality rates among working-class families.In addition to the poor living conditions, working-class families also had to
+                   deal with long working hours and low wages. Many factory workers had to work 12-14 hour days, six days a week, just to make ends meet.
+                    This left little time for family life, and many working-class families were forced to rely on older children to help support the family, 
+                    which often meant taking them out of school.In conclusion, the Industrial Revolution had a significant impact on working-class families, both positive and negative. 
+                    While it brought about many positive changes, such as increased productivity and economic growth, it also led to poor living conditions, 
+                    long working hours, low wages, and health problems for many working-class families. Despite these challenges, many working-class families
+                     were able to adapt and thrive, and the legacy of the Industrial Revolution continues to shape our world today.</p>
+    </div>
+    <button> Quiz</button>
+</body>
+</html>
